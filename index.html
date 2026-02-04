@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DevOps Overview</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+            font-size: 36px;
+        }
+
+        header p {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+
+        .card h2 {
+            color: #2c5364;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+        }
+
+        .pipeline {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .step {
+            background: #eef3f7;
+            padding: 15px;
+            text-align: center;
+            border-radius: 6px;
+            font-weight: 600;
+        }
+
+        footer {
+            background-color: #203a43;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>DevOps Working Model</h1>
+    <p>Continuous Integration, Continuous Delivery & Automation</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>What is DevOps?</h2>
+        <p>
+            DevOps is a set of practices that combines <strong>Development</strong> and 
+            <strong>Operations</strong> to improve collaboration, automate processes, 
+            and deliver high-quality software faster and more reliably.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Core DevOps Principles</h2>
+        <ul>
+            <li>Continuous Integration (CI)</li>
+            <li>Continuous Delivery & Deployment (CD)</li>
+            <li>Infrastructure as Code (IaC)</li>
+            <li>Monitoring & Logging</li>
+            <li>Automation & Collaboration</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>DevOps Workflow</h2>
+        <div class="pipeline">
+            <div class="step">Plan</div>
+            <div class="step">Code</div>
+            <div class="step">Build</div>
+            <div class="step">Test</div>
+            <div class="step">Deploy</div>
+            <div class="step">Monitor</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Common DevOps Tools</h2>
+        <ul>
+            <li>Version Control: Git, GitHub</li>
+            <li>CI/CD: Jenkins, GitHub Actions</li>
+            <li>Containers: Docker, Kubernetes</li>
+            <li>Cloud: AWS, Azure, GCP</li>
+            <li>Monitoring: Prometheus, Grafana</li>
+        </ul>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 | DevOps Project | Designed by Anurag Bodkhe
+</footer>
+
+</body>
+</html>
